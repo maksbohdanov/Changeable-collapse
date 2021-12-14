@@ -1,4 +1,4 @@
-/////////////////////COLLAPSE////////////////
+////COLLAPSE
 function activate()
 {
   var coll = document.getElementsByClassName("collapsible");
@@ -16,7 +16,7 @@ function activate()
         });
       }      
 }
-/////////////////////COLLAPSE////////////////
+
 window.onload = start
 
 const BASE_URL = "https://api-web3.azurewebsites.net/api/"; 
