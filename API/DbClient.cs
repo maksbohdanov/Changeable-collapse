@@ -12,8 +12,8 @@ namespace API
         IFirebaseClient _client;
         IFirebaseConfig _config = new FirebaseConfig
         {
-            AuthSecret = "NYRFDl2OMBTtfljvSqloTsTmg71kKwFUM44NJe2c",
-            BasePath = $"https://web-lab3-6cd42-default-rtdb.europe-west1.firebasedatabase.app/"
+            AuthSecret = "XXXXXXXXXXXXX",
+            BasePath = $"https://your/base/path"
         };       
 
         public DbClient()
