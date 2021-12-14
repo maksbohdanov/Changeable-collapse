@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+
+    <meta charset="utf-8">
+    <title>Lab 2</title>
+    <link rel = "stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+    
+    <header id="hdr">
+        <div class="textbox-top" id="textbox-top">
+            <h1>MELON MUSIC</h1>
+        </div>
+        <div class="text-area-1">
+            <p class="text_right">Fermentum iaculis eu non diam phasellus vestibulum. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Cursus in hac habitasse platea dictumst quisque sagittis purus. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget.</p>
+        </div>
+        <div id="form-header"></div>
+        <div id="list-header"></div>
+        
+    </header>
+
+
+
+    <main>
+
+       <div class="left-main picWrap" id="leftmain">
+            <img class="left-main_pic" src="images/gang.jpg"  usemap="#workmap">
+            <map name="workmap">
+                <area shape="default" href="https://genius.com/artists/Melon-music">
+            </map>
+
+            <button id="button1">TASK 1
+                <script>
+                    button1.onclick = function() {
+                        let tmp = document.getElementById('topmain').innerHTML;
+                        document.getElementById('topmain').innerHTML = document.getElementById('bottommain').innerHTML;
+                        document.getElementById('bottommain').innerHTML = tmp;
+                    };
+                </script>
+
+
+            </button>
+
+            <button id="button2">TASK 2
+                <script>
+                    button2.onclick = function() {
+                        let a = 5; let b = 8; let c = 12;
+                        let p = (a+b+c)/2;
+                        let S = Math.sqrt( p * (p-a) * (p-b) * (p-c) );
+                        document.getElementById('square').innerText = "S = " + S;
+                    };
+                </script>
+            </button>            
+            
+            
+            <div id="task3"></div>
+            <div id="task4">
+                <label for="task4-color">Choose a color:</label><br>
+                <input type="color" id="task4-color">    
+            </div>
+
+            <div id="form-left-main"></div>         
+            
+
+            <div class="square" id="square"></div>            
+       </div>
+
+       <div class="top-main" id="topmain">
+            <p>
+                Diam vel quam elementum pulvinar etiam non quam lacus suspendisse.Fermentum dui faucibus in ornare quam viverra orci sagittis eu. Tempus quam pellentesque nec nam aliquam sem et.
+            </p>
+
+            <div id="form-top-main"></div>         
+
+            
+        </div> 
+
+        <div class="bottom-main" id="bottommain">
+            <p>
+                Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Euismod lacinia at quis risus sed vulputate. Tristique senectus et netus et malesuada. Velit egestas dui id ornare. At consectetur lorem donec massa sapien. Nunc faucibus a pellentesque sit. Nullam ac tortor vitae purus faucibus ornare suspendisse. Placerat vestibulum lectus mauris ultrices eros in. Eu ultrices vitae auctor eu augue ut lectus. Mi bibendum neque egestas congue. Pulvinar elementum integer enim neque. Velit euismod in pellentesque massa. Non diam phasellus vestibulum lorem. Ullamcorper morbi tincidunt ornare massa eget. Felis donec et odio pellentesque diam.
+            </p>  
+
+            <div id="form-bottom-main"></div>           
+        </div> 
+
+    </main>
+    
+    
+    <aside id="asd">
+        <div class="left-block">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li><a href="index.html">Main</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="user.html">User</a></li>
+            </ul>
+        </div>
+        <div id="form-aside"></div>
+        
+    </aside>
+
+
+    <footer id="ftr">
+        
+         <div class="textbox-bottom">
+             <h1>E-e, gang, hold on!</h1>
+        </div>
+
+        <div class="text_area_2">
+            <p>Ut id aliquam purus, sit amet bibendum arcu. Sed interdum vulputate urna ac tincidunt. Donec volutpat, tortor non dapibus laoreet, felis tellus imperdiet ipsum, non tincidunt elit magna vel dolor. Maecenas tempus nibh vel nisi congue tincidunt. Aenean lacinia sit amet diam eget pretium. Donec dictum velit nec odio efficitur, vitae faucibus neque convallis. In id sem metus. Duis ultrices, nisl vel elementum rutrum, nisl massa laoreet velit, vel volutpat dolor lorem eu augue. </p>
+        </div>
+        <div id="form-footer"></div>
+
+        
+    </footer>
+
+  </body>
+</html>
